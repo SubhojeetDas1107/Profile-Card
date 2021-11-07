@@ -1,0 +1,186 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <title>
+        <Profile Card>
+    </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+    <style media="screen">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #202020;
+        }
+        
+        main {
+            width: 340px;
+            overflow: hidden;
+            background-color: #b9b9b9;
+            font-size: 16px;
+            line-height: 22px;
+            color: #000;
+            border-radius: 7px;
+            box-shadow: -4px -4px 20px rgba(0, 0, 0, 0.9);
+            margin: 50px auto;
+        }
+        
+        .top-card {
+            width: 100%;
+        }
+        
+        .top-card img {
+            width: 100%;
+        }
+        
+        .top-card .menu-icon {
+            position: relative;
+            bottom: 13.7em;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        
+        .top-card .menu-icon .item1 {
+            margin-left: 10px;
+            margin-top: 15px;
+            color: red;
+        }
+        
+        .top-card .menu-icon .item2 {
+            float: right;
+            margin-right: 20px;
+            margin-top: -10px;
+            color: black;
+        }
+        
+        h1 {
+            font-size: 22px;
+            color: #000;
+            font-weight: 600;
+            margin: 12px 0;
+            text-align: center;
+        }
+        
+        .middle-card h1 {
+            text-decoration: underline;
+        }
+        
+        .middle-card,
+        footer {
+            margin: 5px 25px;
+        }
+        
+        .middle-card {
+            text-align: center;
+        }
+        
+        footer {
+            text-align: center;
+            border-top: 2px solid rgba(0, 0, 0, .4);
+        }
+        
+        footer .social-icon {
+            font-size: 20px;
+            margin: 0 5%;
+            color: rgba(0, 0, 0, .9);
+        }
+        
+        .facebook:hover {
+            color: #3a5ba1;
+        }
+        
+        .whatsapp:hover {
+            color: rgb(19, 175, 19);
+        }
+        
+        .instagram:hover {
+            color: #e468a2;
+        }
+        
+        .github:hover {
+            color: #6d6d6d;
+        }
+        
+        .linkedin:hover {
+            color: #005c8d;
+        }
+        
+        footer .links {
+            border-top: 2px solid rgba(0, 0, 0, .4);
+            text-align: center;
+            margin-top: 10px;
+            padding: 8px 0;
+        }
+        
+        button {
+            width: 110px;
+            height: 37px;
+            margin-top: 10px;
+            border-radius: 10px;
+            font-size: 15px;
+            text-align: center;
+        }
+        
+        .portfolio {
+            background: #3f3f3f;
+            border: none;
+            color: white;
+        }
+        
+        .mail {
+            margin-left: 40px;
+            border: 2px solid #3f3f3f;
+            background: #b9b9b9;
+            color: black;
+        }
+        
+        .mail:hover {
+            background-color: #3f3f3f;
+            border: 2px solid black;
+            color: white;
+        }
+        
+        .portfolio:hover {
+            border: 2px solid #000000;
+            background: #b9b9b9;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="top-card">
+            <img src="img.jpeg" alt="user picture">
+            <div class="menu-icon">
+                <div class="menu item1"><i class="fas fa-heart"></i></div>
+                <div class="menu item2"><i class="fas fa-bars"></i></div>
+            </div>
+
+        </section>
+
+        <section class="middle-card">
+            <h1>Subhojeet Das</h1>
+            <p>A CSE student in Techno International New Town. A Programmer, Frontend Web Developer and a Machine Learner. Loves to play and watch cricket.</p>
+        </section>
+
+        <footer>
+            <h1>Contact Me</h1>
+            <a href="https://www.facebook.com/subhojeet.das.11" target="_blank" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=+917001850127" target="_blank" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/SubhojeetDas1107" target="_blank" class="social-icon github"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/subhojeetdas1107/" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/subhojeet-das-656871198/" target="_blank" class="social-icon linkedin"><i class="fab fa-linkedin"></i></a>
+
+            <section class="links">
+                <button class="portfolio" onclick="window.location.href='#';">Portfolio</button>
+                <button class="mail" onclick="window.location.href='mailto:hbksubhojeetdas1107@gmail.com';">Mail Me</button>
+            </section>
+        </footer>
+    </main>
+</body>
